@@ -1,0 +1,28 @@
+﻿@model Personel
+<style>
+
+    input{
+
+        display:block;
+        border:2px solid red;
+        margin-top:5px;
+        
+    }
+
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <form method="post" action="/Home/Index">
+
+        <input type="text" id="Id" name="Id" placeholder="Id giriniz" />
+        <input type="text" id="ad" name="ad" placeholder="Ad giriniz" />
+        <input type="text" id="soyad" name="soyad" placeholder="Soyad giriniz" />
+        <input type="text" id="memleket" name="memleket" placeholder="Memleket Giriniz" />
+        <input type="submit" value="Personel Kaydet" />
+
+    </form>
+
+
+</div>
